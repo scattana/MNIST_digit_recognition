@@ -1,4 +1,14 @@
 # -------------------------
+# LAST UPDATED:
+# 21 June 2020 04:26 PM CDT
+# Seth Cattanach
+# -------------------------
+# NOTES:
+# Format changes and fork
+# testing for AcademyNEXT
+# -------------------------
+
+# -------------------------
 # PACKAGE IMPORTS
 # -------------------------
 # Importing the required Keras modules containing model and layers
