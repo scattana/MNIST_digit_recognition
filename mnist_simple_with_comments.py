@@ -2,8 +2,6 @@
 # PACKAGE IMPORTS
 # -------------------------
 # Importing the required Keras modules containing model and layers
-#from keras.layers import *
-#from keras.models import Sequential
 import tensorflow as tf
 from tensorflow import keras
 from tensorflow.keras import layers
