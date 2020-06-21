@@ -2,9 +2,11 @@
 # PACKAGE IMPORTS
 # -------------------------
 # Importing the required Keras modules containing model and layers
-from keras.layers import *
-from keras.models import Sequential
+#from keras.layers import *
+#from keras.models import Sequential
 import tensorflow as tf
+from tensorflow import keras
+from tensorflow.keras import layers
 
 # -------------------------
 # DATA COLLECTION
@@ -48,12 +50,12 @@ x_test = x_test / 255
 # -------------------------
 # Create a Sequential model and add neural network layers
 # NOTE: final Dense layer MUST have 10 neurons b/c 10 classes (digits 0-9)
-model = Sequential()
-model.add(Conv2D(28, kernel_size=(5,5), input_shape=input_shape))
-model.add(MaxPooling2D(pool_size=(2, 2)))
-model.add(Flatten()) # Flattening the 2D arrays for fully connected layers
-model.add(Dense(128, activation=tf.nn.relu))
-model.add(Dense(10,activation=tf.nn.softmax))
+model = keras.Sequential()
+model.add(layers.Conv2D(28, kernel_size=(5,5), input_shape=input_shape))
+model.add(layers.MaxPooling2D(pool_size=(2, 2)))
+model.add(layers.Flatten()) # Flattening the 2D arrays for fully connected layers
+model.add(layers.Dense(128, activation=tf.nn.relu))
+model.add(layers.Dense(10,activation=tf.nn.softmax))
 
 
 # -------------------------
