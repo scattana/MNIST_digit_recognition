@@ -2,9 +2,9 @@
 A simple Keras/Tensorflow implementation of the MNIST digit recognition problem for use by AcademyNEXT students
 
 # Welcome!
-Ethan Friedman's Fork!
+This is Ethan Friedman's Fork!
 
-
+This is just for testing :)
 
 
 
