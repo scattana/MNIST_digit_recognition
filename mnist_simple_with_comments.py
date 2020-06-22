@@ -24,7 +24,7 @@ from tensorflow.keras import layers
 # Load data and split into train/test sets
 # using the MNIST Digit dataset (black & white)
 (x_train, y_train), (x_test, y_test) = tf.keras.datasets.mnist.load_data()
-
+# this is a comment!
 
 # -------------------------
 # DATA PRE-PROCESSING
