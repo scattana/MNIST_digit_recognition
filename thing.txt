@@ -1,0 +1,3 @@
+ash github fork demo
+
+do i have to add txt format for git to recognize it's a text file? who knows.
